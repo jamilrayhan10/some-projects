@@ -5,6 +5,7 @@ import ReactPaginate from 'react-paginate';
 
 
 const Pagination = () => {
+  
   const [data, setData] = useState([]);
   useEffect(() => {
     fetch(

@@ -33,8 +33,7 @@
 .pagination_area{
     display: flex;
     justify-content: center;
-    align-items: center;
-
+    align-items: center
 }
 .pagination_area div{
     padding: 20px;
