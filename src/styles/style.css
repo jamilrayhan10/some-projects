@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.items_area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+.item{
+    margin: 20px 10px;
+    text-align: center;
+    border: 1px solid rgb(231, 231, 231);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.item img{
+    width: 100px;
+    height: 100px;
+}
