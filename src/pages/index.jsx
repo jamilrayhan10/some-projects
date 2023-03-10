@@ -1,12 +1,14 @@
 import React from 'react';
+import  Link  from 'next/link';
 import Links from '../components/links';
-// import  "../../styles/style.css"
 
 const Home = () => {
   return (
     <>
+    <div className="projects_area">
     <h2>All links Here</h2>
-      <Links />
+    <Links />           
+    </div>
     </>
   );
 };

@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+.projects_area{
+    margin: 30px 100px; 
+    padding: 20px;
+}
 
 .items_area{
     display: flex;
@@ -22,4 +26,26 @@
 .item img{
     width: 100px;
     height: 100px;
+}
+
+
+/* pagination_area */
+.pagination_area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.pagination_area div{
+    padding: 20px;
+    background-color: black;
+    margin: 0 5px;
+    color: #fff;
+    border-radius: 50px;
+    width: 10px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
